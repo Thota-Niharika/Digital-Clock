@@ -1,0 +1,48 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+@font-face {
+    font-family: ProductSans;
+    src: url(../../assests/fonts/Product\ Sans\ Regular.ttf);
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: ProductSans;
+    background-color: lightgray;
+    overflow: hidden;
+}
+#digital_clock_container{
+    width: 35vw;
+    height: 45vh;
+    background-color: transparent;
+    position: absolute;
+    top: 25vh;
+    left: 32.5vw;
+    border-radius: 5vw;
+    backdrop-filter: blur(3vw);
+    border: 0.2vw solid black;
+}
+.clock_headings{
+    font-size: 3.5vw;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 6.5vh;
+}
+#day_heading{
+    font-size: 6.5vw;
+    color: blue;
+}
+.date_time{
+    color:grey;
+}
+#seconds_heading{
+    font-size: 50vw;
+    color:rgba(111, 195, 191, 0.796);
+    text-align: center;
+    margin-top: -15vh;
+    z-index: -1;
+    text-shadow: 0.3vw 0.3vw 0.2vw black;
+}
